@@ -15,3 +15,27 @@ to use this library, you need to do the following:
 4. save the file to the "lib" directory as "drive.py"
 
 ### getting started
+this is a quick and simple test program:
+```
+import drive
+drive.forward(2)
+```
+your robot should drive forward when you run this program
+
+### parameters and commands
+so far, this library includes the following commands:
+```
+init()
+stop()
+forward()
+backward()
+leftslow()
+leftfast()
+rightslow()
+leftslow()
+```
+For the commands `leftslow()`, `leftfast()`, `rightslow()`, and `rightfast()`, you have  speed and duration as the parameters. use them like this: leftslow(speed, duration)
+
+For `forward()` and `backward()`, you only have speed
+
+And for `init()` and `stop()`, you have none.
