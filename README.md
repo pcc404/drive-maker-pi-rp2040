@@ -32,7 +32,7 @@ so far, this library includes the following commands:
 `leftfast()`  
 `rightslow()`  
 `leftslow()`  
-For the commands `leftslow()`, `leftfast()`, `rightslow()`, and `rightfast()`, you have  speed and duration as the parameters. use them like this: leftslow(speed, duration)
+For the commands `leftslow()`, `leftfast()`, `rightslow()`, and `rightfast()`, you have  speed and duration as the parameters. use them like this: `leftslow(speed, duration)`
 
 For `forward()` and `backward()`, you only have speed
 
