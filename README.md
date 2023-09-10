@@ -10,4 +10,8 @@ to use this library, you need to do the following:
 1. download `drive.py`
 1. In thonny, enable "show hidden files"
 1. open the file in thonny
-2. click go to File > Save As, and select "raspberry pi pico" or "RP2040", then save the file to the "lib" directory as "drive.py"
+2. go to File > Save As
+3. select "raspberry pi pico" or "RP2040"
+4. save the file to the "lib" directory as "drive.py"
+
+### getting started
