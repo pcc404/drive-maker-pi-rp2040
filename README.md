@@ -23,7 +23,7 @@ drive.forward(2)
 your robot should drive forward when you run this program
 
 ### parameters and commands
-so far, this library includes the following commands:
+so far, this library includes the following commands:  
 `init()`  
 `stop()`  
 `forward()`  
