@@ -24,16 +24,14 @@ your robot should drive forward when you run this program
 
 ### parameters and commands
 so far, this library includes the following commands:
-```
-init()
-stop()
-forward()
-backward()
-leftslow()
-leftfast()
-rightslow()
-leftslow()
-```
+`init()`
+`stop()`
+`forward()`
+`backward()`
+`leftslow()`
+`leftfast()`
+`rightslow()`
+`leftslow()`
 For the commands `leftslow()`, `leftfast()`, `rightslow()`, and `rightfast()`, you have  speed and duration as the parameters. use them like this: leftslow(speed, duration)
 
 For `forward()` and `backward()`, you only have speed
