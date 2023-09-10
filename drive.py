@@ -28,11 +28,11 @@ def stop():
 def forward(speed):
     m1i1.freq(50)
     m1i2.freq(50)
-    m1i2.duty_u16(speed*16000)
+    m1i2.duty_u16(speed*18000)
     m1i1.duty_u16(0)
     m2i1.freq(50)
     m2i2.freq(50)
-    m2i2.duty_u16(speed*16000)
+    m2i2.duty_u16(speed*18000)
     m2i1.duty_u16(0)
     
 def backward(speed):
@@ -104,4 +104,5 @@ def leftfast(speed, length):
     m1i1.duty_u16(0)
     m2i2.duty_u16(0)
     m2i1.duty_u16(0)
+
 
